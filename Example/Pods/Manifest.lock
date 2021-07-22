@@ -1,0 +1,16 @@
+PODS:
+  - XSLDoneSwiftFrameWork (0.1.0)
+
+DEPENDENCIES:
+  - XSLDoneSwiftFrameWork (from `../`)
+
+EXTERNAL SOURCES:
+  XSLDoneSwiftFrameWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XSLDoneSwiftFrameWork: a2e10e6c5b97fb6e045eaa1acec77258fac674b2
+
+PODFILE CHECKSUM: aa8dbe05078c9bad32aabdc5440ead59d1c0ce2a
+
+COCOAPODS: 1.10.1
