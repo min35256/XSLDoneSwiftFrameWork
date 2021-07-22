@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XSLDoneSwiftFrameWork_Example' do
+  pod 'XSLDoneSwiftFrameWork', :path => '../'
+
+  target 'XSLDoneSwiftFrameWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
