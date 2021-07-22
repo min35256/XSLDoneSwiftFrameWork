@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XSLDoneSwiftFrameWork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XSLDoneSwiftFrameWork.'
+  s.summary          = 'This project is a test for framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'This project is a test for framework,Just for test'
                        DESC
 
   s.homepage         = 'https://github.com/xiaosailing/XSLDoneSwiftFrameWork'
@@ -30,7 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XSLDoneSwiftFrameWork/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.swift.version = '5.0'
+  
+  s.platforms = {
+      "ios" :"13.0"
+  }
+  
+  
   
   # s.resource_bundles = {
   #   'XSLDoneSwiftFrameWork' => ['XSLDoneSwiftFrameWork/Assets/*.png']
